@@ -1,0 +1,86 @@
+/* This is a custom CSS stylesheet */
+/* Global Styles */
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.fullscreen {
+    height: 100%;
+    width: 100%;
+}
+
+.fullscreen-width {
+    width: 100%;
+}
+
+.outer {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+body {
+    background-color: green;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+#quoteBox {
+    background-color: white;
+    padding: 2em;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#quoteBox h1 {
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+#quoteText {
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#quoteAuthor {
+    font-size: 1.2em;
+    padding-bottom: 1.5em;
+}
+
+#buttons {
+    display: block;
+    width: 100%;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
